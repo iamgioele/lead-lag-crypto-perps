@@ -1,0 +1,14 @@
+[Unit]
+Description=Hyperliquid websocket capture (bbo, trades, l2Book, activeAssetCtx)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=hl
+WorkingDirectory=/home/hl/collector
+ExecStart=/home/hl/collector/.venv/bin/python /home/hl/collector/hl_collector.py --out /home/hl/data --connections 3
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

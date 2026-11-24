@@ -1,0 +1,6 @@
+# Copy to config.toml (git-ignored) and add your own keys.
+[amberdata]
+api_key = ""
+
+[tardis]
+api_key = ""

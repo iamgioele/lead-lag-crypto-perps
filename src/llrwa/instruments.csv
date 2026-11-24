@@ -1,0 +1,17 @@
+asset,venue,native_symbol,asset_type,underlying,quote,contract_size,tick_size,listed,tardis_exchange,tardis_symbol,amber_exchange,amber_instrument,notes
+WTI,binance,CLUSDT,commodity,WTI crude (TradFi perp),USDT,1.0,0.01,2026-04-01,binance-futures,clusdt,binance,CLUSDT,weekend index = order-book EWMA since 2026-09-15
+WTI,okx,CL-USDT-SWAP,commodity,WTI crude,USDT,0.1,0.01,2026-03-04,okex-swap,CL-USDT-SWAP,okex,CL-USDT-SWAP,sizes in contracts (ctVal 0.1 CL)
+WTI,kraken,PF_WTIOILUSD,commodity,WTI crude 24/7 Pyth index,USD,1.0,0.001,2026-05-28,cryptofacilities,PF_WTIOILUSD,kraken,PF_WTIOILUSD,amber instrument name to verify in Phase 1
+WTI,hyperliquid,xyz:CL,commodity,WTI crude (HIP-3 xyz dex),USDC,1.0,,2026-01-06,hyperliquid,xyz:CL,hyperliquid,xyz:CL,amber has no top-of-book for hyperliquid; listed = Tardis availableSince; tick = significant-figure pricing
+GOLD,binance,XAUUSDT,commodity,Gold XAU/USD (TradFi perp),USDT,1.0,0.01,2025-12-11,binance-futures,xauusdt,binance,XAUUSDT,commodity TradFi perp; not the PAXG/XAUT gold tokens
+GOLD,okx,XAU-USDT-SWAP,commodity,Gold XAU/USD,USDT,0.001,0.1,2025-04-09,okex-swap,XAU-USDT-SWAP,okex,XAU-USDT-SWAP,sizes in contracts (ctVal 0.001 XAU)
+GOLD,kraken,PF_XAUUSD,commodity,Gold XAU/USD,USD,1.0,0.01,2026-08-05,cryptofacilities,PF_XAUUSD,kraken,PF_XAUUSD,Commodities category; not PF_PAXGUSD/PF_XAUTUSD
+GOLD,hyperliquid,xyz:GOLD,commodity,Gold (HIP-3 xyz dex),USDC,1.0,,2025-12-22,hyperliquid,xyz:GOLD,hyperliquid,xyz:GOLD,amber has no top-of-book for hyperliquid; listed = Tardis availableSince; tick = significant-figure pricing
+SNDK,binance,SNDKUSDT,stock,SanDisk Corp.,USDT,1.0,0.01,2026-04-07,binance-futures,sndkusdt,binance,SNDKUSDT,
+SNDK,okx,SNDK-USDT-SWAP,stock,SanDisk Corp.,USDT,1.0,0.1,2026-03-04,okex-swap,SNDK-USDT-SWAP,okex,SNDK-USDT-SWAP,
+SNDK,kraken,PF_SNDKUSD,stock,SanDisk Corp.,USD,1.0,0.1,2026-09-03,cryptofacilities,PF_SNDKUSD,kraken,PF_SNDKUSD,Equities category (not an xStock); listed 2026-09-03
+SNDK,hyperliquid,xyz:SNDK,stock,SanDisk Corp. (HIP-3 xyz dex),USDC,1.0,,2026-01-12,hyperliquid,xyz:SNDK,hyperliquid,xyz:SNDK,xyz dex (not io:SNDK); listed = Tardis availableSince; tick = significant-figure pricing
+MU,binance,MUUSDT,stock,Micron Technology,USDT,1.0,0.01,2026-04-07,binance-futures,muusdt,binance,MUUSDT,not MUUUSDT (2x leveraged ETF)
+MU,okx,MU-USDT-SWAP,stock,Micron Technology,USDT,1.0,0.01,2026-03-04,okex-swap,MU-USDT-SWAP,okex,MU-USDT-SWAP,not MUU-USDT-SWAP (2x leveraged ETF)
+MU,kraken,PF_MUUSD,stock,Micron Technology,USD,1.0,0.01,2026-09-23,cryptofacilities,PF_MUUSD,kraken,PF_MUUSD,Equities category (not an xStock); listed 2026-09-23 11:55Z inside the sample
+MU,hyperliquid,xyz:MU,stock,Micron Technology (HIP-3 xyz dex),USDC,1.0,,2025-12-19,hyperliquid,xyz:MU,hyperliquid,xyz:MU,listed = Tardis availableSince; tick = significant-figure pricing
